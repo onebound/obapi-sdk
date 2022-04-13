@@ -1,0 +1,15 @@
+{
+    "name": "vendor/onebound/obapi-sdk",
+    "type": "SDK",
+    "license": "MIT",
+    
+    "autoload": {
+        "psr-4": {
+            "otao\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {   
+        "php": ">=5.6"
+    }
+}
