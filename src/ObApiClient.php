@@ -42,7 +42,9 @@ include_once dirname(__FILE__) . "/ObApiHelper.php";
 include_once dirname(__FILE__) . "/ObApiLog.php";
 include_once dirname(__FILE__) . "/ObApiTranslate.php";
 include_once dirname(__FILE__) . "/item/item_base.php";
-define("DS", DIRECTORY_SEPARATOR);
+if(!defined('DS')){
+    define("DS", DIRECTORY_SEPARATOR);
+}
 class ObApiClient
 {
 
